@@ -97,10 +97,10 @@ Your local Linux system should already have an SSH client installed. If not, you
 To connect to your Ubuntu system you need to know the IP address of the computer and use the ssh command.
 
 `ssh username@IPaddress `\
-`ssh nasir@172.17.18.200`
+`ssh aorko@192.168.0.200`
 
 `ssh username@IPaddress -p portnumber`\
-`ssh nasir@172.17.18.200 -p 22`
+`ssh aorko@192.168.0.200 -p 22`
 
 ## Steps 6: Enable,Disable or Status check
 Your commands to manage the SSH service are correct, but the service command is being used alongside systemctl. It's preferable to stick with one of them for consistency. Since Ubuntu 22.04 uses systemd, it's recommended to use systemctl for managing services.
